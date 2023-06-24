@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>saturn code</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/258160b9cd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="img/saturncode logo/saturn.gif" alt="logotipo com animação" class="logo">
+            <ul id="menulateral">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#serviços">Serviços</a></li>
+                <li><a href="#portfólio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Developer | Legal Tech</p>
+            <h1>Olá, me chamo <span>Bárbara</span><br>e construo sonhos através da tecnologia! </h1>
+        </div>
+    </div>
+</div>
+<!-----------------------------------------------------------------inicia a parte do sobre--------------------------------------------------------------------------->
+<div id="sobre">
+    <div class="container">
+        <div class="row">
+            <div class="sobre-col-1">
+                <img src="img/saturncode logo/girlonsaturn.png" alt="imagem contendo o rosto de uma programadora no espaço observando as estrelas, representando o codinome saturncode">
+            </div>
+            <div class="sobre-col-2">
+                <h1 class="subtitulo">Sobre</h1>
+                <p><i>Olá, sinta-se em casa!</i> Esse é o meu portfólio, eu, <b>mulher goianiense que busca transformar os meus, os seus, os nossos sonhos... com tecnologia!</b> Em busca de novas oportunidades e sonhos, <b>estou em transição de carreira</b> da área jurídica para área da tecnologia. Conheça um pouco da minha trajetória clicando nas opções a seguir: skills, educação e reconhecimentos. Sou estudante e nas horas vagas, sou streamer dos meus estudos e do meu avanço na área tech. <i>Nas horas vagas adoro ler, ouvir música e assistir doramas!</i></p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Educação')">Educação</p>
+                    <p class="tab-links" onclick="opentab('Reconhecimentos')">Reconhecimentos</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Desenvolvimento Web</span><br>Criação de aplicações web/app/sites.</li>
+                        <li><span>Desenvolvimento Back-End</span><br>Criação de sistemas.</li>
+                        <li><span>Desenvolvimento Mobile</span><br>Criação de aplicações mobile.</li>
+                        <li><span>Legal Tech</span><br>Consultoria sobre Direito Digital.</li>
+                        <li><span>Ciência da Informação</span><br>Consultoria sobre Gestão da Informação.</li>
+                     
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Educação">
+                    <ul>
+                        <li><span>2023 - em andamento</span><br>Bacharelanda em Engenharia da Computação - UniAmérica/Descomplica.</li>
+                        <li><span>2022 - em andamento</span><br>Técnico em Desenvolvimento Web e Mobile - Escola do Futuro do Estado de Goiás.</li>
+                        <li><span>2022</span><br>Especialização em Direito Digital e Gestão de Inovação - UniAmérica.</li>
+                        <li><span>2021</span><br>Bacharelado em Direito - Universidade Salgado de Oliveira.</li>
+                        <li><span>2019</span><br>Bacharelado em Biblioteconomia - Universidade Federal de Goiás.</li>
+                        <li><span>2018</span><br>Certificação em Estatística não paramétrica - Universidade de São Paulo.</li>
+                   
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Reconhecimentos">
+                    <ul>
+                        <li><span>Techstars Startup Weekend Goiânia 2023</span><br>2º lugar, medalha de prata - Founder da TechAssistive.</li>
+                        <li><span>Olimpíada Nacional de Ambientes Marinhos e Polares(PolarOn) 2021</span><br>1º lugar, medalha de ouro.</li>
+                        <li><span>Olimpíada Nacional de Ambientes Marinhos e Polares (PolarOn) 2021</span><br>Medalha extra honorífica.</li>
+                        <li><span>Embaixadora da Cidadania do Estado de Goiás 2020</span><br>2º Lugar - Criadora do Projeto Serendipidade.</li>
+                        <li><span>NASA GALACTIC PROBLEM-SOLVER 2020</span><br>Reconhecimento pelos esforços para enfrentar os desafios na Terra e no espaço.</li>
+                        <li><span>NASA GLOBAL PROBLEM-SOLVER 2020 </span><br>Agradecimento especial pelos esforços para enfrentar os desafios relacionados ao COVID-19.</li>
+                     
+
+                    </ul>
+                </div>
+            </div>
+               
+        </div>
+    </div>
+</div>
+<!------------------------------------------------serviços-------------------------------------------------------------->
+<div id="serviços">
+    <div class="container">
+        <h1 class="subtitulo">Serviços</h1>
+        <div class="serviços-lista">
+            <div>
+                <i class="fa-solid fa-code"></i> 
+                <h2>Desenvolvimento Web e Sistemas</h2>
+                <p>Desenvolvimento Web e de Sistemas utilizando: HTML, CSS, JavaScript, Bootstrap, Python, Django, Java, MySQL, MongoDB, Docker, CSharp. Experiente com os sistemas operacionais: Linux (Kali, Debian, Ubuntu, Zorin OS) e Windows. </p>
+                <a href="#portfólio">Saiba mais</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-google-play"></i>
+                <h2>Desenvolvimento Mobile</h2>
+                <p>Desenvolvimento mobile focado em Android. Aprimorando os estudos em Android e iOS.</p>
+                <a href="#portfólio">Saiba mais</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-scale-balanced"></i>
+                <h2>Legal Tech</h2>
+                <p>Possui especialização em Direito Digital e Gestão de Inovação, além de estudos, artigos e audiências jurídicas sobre: Law Tech, Direito Privado, Direito Público.</p>
+                <a href="#portfólio">Saiba mais</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-atom"></i>
+                <h2>Ciência da informação</h2>
+                <p>Possui experiência e pesquisas publicadas na área. Conhecimento sobre catalogação, classificação e indexação. Artigos publicados na área de Inteligência Artificial, Machine Learning e Data Science. Utiliza Python, NumPy, Scikit-Learn, MatPlotLib e Jupyter.</p>
+                <a href="#portfólio">Saiba mais</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------------------------------------------portfólio---------------------------------------------------------------------------------------------->
+<div id="portfólio">
+    <div class="container">
+        <h1 class="subtitulo">Portfólio</h1>
+        <div class="trabalho-lista">
+            <div class="trabalho">
+                <img src="img/desweb_Easy-Resize.com.jpg" alt="">
+                <div class="layer">
+                    <h3>Desenvolvimento Web e Sistemas</h3>
+                    <p>Trabalhos e projetos na parte de front e back-end.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="trabalho">
+                <img src="img/desmobile_Easy-Resize.com.jpg" alt="">
+                <div class="layer">
+                    <h3>Desenvolvimento Mobile</h3>
+                    <p>Trabalhos e projetos na parte mobile.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="trabalho">
+                <img src="img/juridico.jpg" alt="">
+                <div class="layer">
+                    <h3>Legal Tech</h3>
+                    <p>Consultorias em Direito Digital. Publicações de artigos sobre Law Tech, Direito Público e Privado</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="trabalho">
+                <img src="img/ciencinfo_Easy-Resize.com.jpg" alt="">
+                <div class="layer">
+                    <h3>Ciência da Informação</h3>
+                    <p>Trabalhos e projetos na parte de data science e catalogação, classificação e indexação da informação.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://linktr.ee/saturncode" class="btn">Ver mais</a>
+    </div>
+</div>
+<!-------------------------------------------------------------Contato------------------------------------------------------------------------------------------------->
+<div id="contato">
+    <div class="container">
+        <div class="row">
+            <div class="contato-esquerda">
+                <h1 class="subtitulo">Contato</h1>
+                <p><i class="fa-regular fa-envelope"></i> tosaturncode@gmail.com</p>
+                <div class="social-icones">
+                    <a href="https://www.instagram.com/sa_turncode/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/barbaraarruda"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://tiktok.com/@babisaturn"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://www.linkedin.com/in/barbara-arruda/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="https://linktr.ee/saturncode" class="btn btn2">Saiba mais</a>              
+            </div>
+            <div class="contato-direita">
+                <form action="https://formsubmit.co/tosaturncode@gmail.com" method="POST">
+                    <input type="text" name="Nome" placeholder="Seu nome" required>
+                    <input type="email" name="Email" placeholder="Seu email" required>
+                    <textarea name="Mensagem" rows="6" placeholder="Sua mensagem"></textarea>
+                    <button type="submit" class="btn btn2">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>&copy; 2023 - <i class="fa-regular fa-star"></i> Saturn Code - Todos os direitos reservados</p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+    
+</body>
+</html>
